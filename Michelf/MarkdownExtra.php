@@ -1273,7 +1273,7 @@ class MarkdownExtra extends \Michelf\Markdown {
 		$attr       = array_pad($attr, $col_count, '');
 
 		// Write column headers.
-		$text = "<table>\n";
+		$text = '<table class="table">\n';
 		$text .= "<thead>\n";
 		$text .= "<tr>\n";
 		foreach ($headers as $n => $header) {
